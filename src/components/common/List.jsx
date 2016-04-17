@@ -18,7 +18,7 @@ export default ({className, context, list, item, noDivider, transform})=> {
               {text}
               <div
                 className='t-light t-font-size-14 c-gray-dark'
-                textContent={secondaryText}
+                textContent={secondaryText || ''}
               />
             </div>
           </a>
