@@ -1,0 +1,23 @@
+.List-item {
+  display: block;
+  border-bottom: 1px solid #EEE;
+  padding: 20px 16px;
+  cursor: pointer;
+  min-height: 16px;
+}
+
+.List-item--header {
+  border-top: 1px solid #EEE;
+  padding-bottom: 8px;
+  cursor: default;
+  color: hsl(192, 0%, 55%) !important;
+}
+
+.List-item--noDivider,
+.List-item--header {
+  border-bottom: 0;
+}
+
+.List-item--noDivider {
+  padding: 16px;
+}

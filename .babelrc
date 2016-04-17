@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    "syntax-jsx",
+    "xvdom",
+    "transform-object-rest-spread",
+    "transform-member-expression-literals",
+    "transform-node-env-inline"
+  ],
+  "presets": ["es2015-loose"]
+}
