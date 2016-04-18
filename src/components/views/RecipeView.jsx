@@ -13,7 +13,7 @@ const TABS = {
     title: 'Ingredients',
     view: (recipe)=>
       <List
-        className='Card l-margin-t26'
+        className='Card'
         item={item}
         list={recipe.ingredients}
       />
@@ -22,7 +22,7 @@ const TABS = {
     title: 'Directions',
     view: (recipe)=>
       <List
-        className='Card l-margin-t26'
+        className='Card'
         item={item}
         list={recipe.directions}
       />
@@ -30,7 +30,7 @@ const TABS = {
 };
 
 export default modelStateComponent(Recipe, 'get', ({id, tab='ingredients'}, recipe)=>
-  <div>
+  <div className='l-padding-b2'>
     <AppToolbar
       left={
         <a href='#'>
