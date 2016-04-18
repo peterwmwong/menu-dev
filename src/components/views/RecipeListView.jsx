@@ -14,10 +14,10 @@ const item = ({name})=> ({
 })
 
 export default modelStateComponent(Recipe, 'query', (props, recipes)=>
-  <div>
+  <div className='l-padding-b2'>
     <AppToolbar title='Recipes' />
     <List
-      className='Card l-margin-t16'
+      className='Card'
       item={item}
       list={recipes}
       transform={sortRecipes}
