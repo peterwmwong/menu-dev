@@ -5,7 +5,7 @@
   },
   "extends": "eslint:recommended",
   "globals": {
-    "Firebase"   : true,
+    "firebase"   : true,
     "IS_DEV"     : true,
     "IS_MOCKING" : true,
     "process"    : true
