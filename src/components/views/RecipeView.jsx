@@ -29,7 +29,7 @@ const TABS = {
   }
 };
 
-export default modelStateComponent(Recipe, 'get', ({id, tab='ingredients'}, recipe)=>
+export default modelStateComponent(Recipe, 'get', ({props: {tab='ingredients'}, state:recipe})=>
   <div className='l-padding-b2'>
     <AppToolbar
       left={
