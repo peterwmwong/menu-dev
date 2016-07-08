@@ -13,7 +13,7 @@ const item = ({name})=> ({
   text: name
 })
 
-export default modelStateComponent(Recipe, 'query', (props, recipes)=>
+export default modelStateComponent(Recipe, 'query', ({state: recipes})=>
   <div className='l-padding-b2'>
     <AppToolbar title='Recipes' />
     <List
